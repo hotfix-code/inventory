@@ -7,100 +7,114 @@
 
 ## English
 
-### Maintenance Notice
+### Project Status
 
-> [!IMPORTANT]
-> **This fork will no longer receive updates.** Development and maintenance continue in a new repository.
+This repository is the continuation of the development and maintenance of this project. The previous repository, which was used as a fork during the initial maintenance phase, is still available here:
 
-#### Background
+> **Previous repository:**\
+> [**github.com/pyabb/inventory-laravel**](https://github.com/pyabb/inventory-laravel)
+>
+> `https://github.com/pyabb/inventory-laravel`
 
-This project was originally published in **2023** and its author presented it in the following video:
+During the maintenance process, the following upgrades were made, among others:
 
-> [**Original YouTube video**](https://www.youtube.com/watch?v=dqBLvR7lC8k)
-
-The project has **not received updates** from its author since then. Due to the lack of activity and response, this fork is now archived and will no longer be maintained.
-
-#### What was done in this fork
-
-| Stack | Before | Now |
-|---|:---:|:---:|
-| **Laravel** | 5 | **10** |
-| **Vue** | 2 | **3** |
+| Stack       | Before  |   Now    |
+|-------------|:-------:|:--------:|
+| **Laravel** |    5    |  **10**  |
+| **Vue**     |    2    |  **3**   |
 | **Bundler** | Webpack | **Vite** |
 
-Additional work included:
+Additional changes included:
 
-- Compatibility and stability fixes
-- Deployment improvements (XAMPP / cPanel / Docker)
-- General maintenance adjustments
+- Fixes and improvements to the existing codebase
 
-#### Project continuity
+| Resource                           | Link                                                                      |
+|------------------------------------|---------------------------------------------------------------------------|
+| **Previous repository**            | [**pyabb/inventory-laravel**](https://github.com/pyabb/inventory-laravel) |
+| **Original video**                 | [YouTube — INVENTORY](https://www.youtube.com/watch?v=dqBLvR7lC8k)        |
+| **Original README (installation)** | [`docs/README.md`](docs/README.md)                                        |
 
-Development continues at:
+> [!NOTE]
+> For installation instructions (Docker / cPanel / XAMPP) see the archived original README at [`docs/README.md`](docs/README.md).
 
-> **New repository:**\
-> [**github.com/hotfix-code/inventory**](https://github.com/hotfix-code/inventory)
->
-> `https://github.com/hotfix-code/inventory`
+### Important Before Production Use
 
-| Resource | Link |
-|---|---|
-| **New repository** | [**hotfix-code/inventory**](https://github.com/hotfix-code/inventory) |
-| **Original video** | [YouTube — INVENTORY](https://www.youtube.com/watch?v=dqBLvR7lC8k) |
-| **Original README** | [`docs/README.md`](docs/README.md) |
+> [!WARNING]
+> The project is currently under maintenance. Validate it thoroughly before deploying to production.
+
+The project is currently under maintenance and further development. Before using it in a production environment, it is recommended to:
+
+- Review and fix existing bugs and any additional issues identified later
+- Run the necessary tests after each modification or upgrade
+- Review and update the project's dependencies
+- Upgrade Laravel from 10 to Laravel 12
+- Verify Laravel 12 compatibility with the project's dependencies and components
+- Perform complete testing before deploying a new version to production
 
 > [!TIP]
-> Updates, fixes and future versions will be incorporated **progressively** into the new repository, once the necessary changes, tests and validations have been completed to ensure stability.
+> Bugs and pending tasks will be progressively documented through issues in this repository.
 
-To follow the project's development, please check the new repository.
+> [!NOTE]
+> New versions will be released progressively after the corresponding changes, tests, and validations have been completed.
+
+### Development
+
+Development and maintenance will continue in this repository. Updates and fixes will be incorporated progressively as they are developed and validated.
 
 ---
 
 ## Español
 
-### Aviso de mantenimiento
+### Estado del proyecto
 
-> [!IMPORTANT]
-> **Este fork dejará de recibir actualizaciones.** El desarrollo y mantenimiento continúan en un nuevo repositorio.
+Este repositorio es la continuación del desarrollo y mantenimiento de este proyecto. El repositorio anterior, utilizado como fork durante la primera etapa de mantenimiento, se encuentra disponible aquí:
 
-#### Contexto
+> **Repositorio anterior:**\
+> [**github.com/pyabb/inventory-laravel**](https://github.com/pyabb/inventory-laravel)
+>
+> `https://github.com/pyabb/inventory-laravel`
 
-Este proyecto fue originalmente publicado en **2023** y su autor presentó el proyecto en el siguiente video:
+Durante el mantenimiento se realizaron, entre otros, los siguientes upgrades:
 
-> [**Video original en YouTube**](https://www.youtube.com/watch?v=dqBLvR7lC8k)
-
-El proyecto **no ha recibido actualizaciones** por parte de su autor desde entonces. Ante la falta de actividad y respuesta, este fork se archiva y deja de recibir mantenimiento.
-
-#### Qué se hizo en este fork
-
-| Tecnología | Antes | Ahora |
-|---|:---:|:---:|
-| **Laravel** | 5 | **10** |
-| **Vue** | 2 | **3** |
+| Tecnología  |  Antes  |  Ahora   |
+|-------------|:-------:|:--------:|
+| **Laravel** |    5    |  **10**  |
+| **Vue**     |    2    |  **3**   |
 | **Bundler** | Webpack | **Vite** |
 
-Además se incorporaron:
+Cambios adicionales:
 
-- Correcciones de compatibilidad y estabilidad
-- Mejoras de despliegue (XAMPP / cPanel / Docker)
-- Ajustes generales de mantenimiento
+- Correcciones y mejoras sobre el código existente
 
-#### Continuidad del proyecto
+| Recurso                           | Enlace                                                                    |
+|-----------------------------------|---------------------------------------------------------------------------|
+| **Repositorio anterior**          | [**pyabb/inventory-laravel**](https://github.com/pyabb/inventory-laravel) |
+| **Video original**                | [YouTube — INVENTORY](https://www.youtube.com/watch?v=dqBLvR7lC8k)        |
+| **README original (instalación)** | [`docs/README.md`](docs/README.md)                                        |
 
-El desarrollo continúa en:
+> [!NOTE]
+> Para la instalación (Docker / cPanel / XAMPP) consulta el README original archivado en [`docs/README.md`](docs/README.md).
 
-> **Nuevo repositorio:**\
-> [**github.com/hotfix-code/inventory**](https://github.com/hotfix-code/inventory)
->
-> `https://github.com/hotfix-code/inventory`
+### Importante antes de usar en producción
 
-| Recurso | Enlace |
-|---|---|
-| **Nuevo repositorio** | [**hotfix-code/inventory**](https://github.com/hotfix-code/inventory) |
-| **Video original** | [YouTube — INVENTORY](https://www.youtube.com/watch?v=dqBLvR7lC8k) |
-| **README original** | [`docs/README.md`](docs/README.md) |
+> [!WARNING]
+> El proyecto se encuentra en proceso de mantenimiento. Valídalo completamente antes de usarlo en producción.
+
+El proyecto se encuentra en proceso de mantenimiento y actualización. Antes de utilizarlo en un entorno de producción, se recomienda:
+
+- Revisar y corregir los bugs existentes y los que sean identificados posteriormente
+- Ejecutar las pruebas necesarias después de cada modificación o upgrade
+- Revisar y actualizar las dependencias del proyecto
+- Realizar el upgrade de Laravel 10 a Laravel 12
+- Validar la compatibilidad de Laravel 12 con las dependencias y componentes utilizados
+- Realizar pruebas completas antes de desplegar una nueva versión en producción
 
 > [!TIP]
-> Las actualizaciones, correcciones y futuras versiones se incorporarán **progresivamente** en el nuevo repositorio, una vez realizados los cambios, pruebas y validaciones necesarias para garantizar su estabilidad.
+> Los bugs y tareas pendientes serán documentados progresivamente en el repositorio mediante issues.
 
-Para seguir el desarrollo del proyecto, consulta el nuevo repositorio.
+> [!NOTE]
+> Las nuevas versiones se publicarán progresivamente después de realizar los cambios, pruebas y validaciones correspondientes.
+
+### Desarrollo
+
+El proyecto continuará evolucionando en este repositorio. Las actualizaciones y correcciones se incorporarán progresivamente a medida que sean desarrolladas y validadas.
