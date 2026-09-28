@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## Laravel 11.x - 2026-09-28
+
+### Changed
+
+-   Upgraded the application dependencies to Laravel 11 and refreshed the Vite/Vue frontend tooling
+
+### Removed
+
+-   Removed unused API, Sanctum, and legacy server configuration scaffolding
+
 ## Laravel 10.x - 2026-06-15
 
 ### Changed
