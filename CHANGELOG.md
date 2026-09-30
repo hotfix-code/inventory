@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## Laravel 12.x - 2026-09-30
+
+### Changed
+
+-   Upgraded Laravel to 12.69.2 and PHPUnit to 11.5.56, including compatible Composer dependencies
+-   Updated frontend dependencies and rebuilt the Vite assets
+
+### Validated
+
+-   Confirmed Sail/PHP 8.2 compatibility, existing application configuration, routes, and migrations
+-   Composer and npm audits completed without vulnerabilities
+
 ## Laravel 11.x - 2026-09-28
 
 ### Changed
